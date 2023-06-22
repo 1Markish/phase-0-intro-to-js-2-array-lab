@@ -25,3 +25,14 @@ function removeCat2(lastCatRemove) {
   lastCatRemove = cats.slice(0, cats.length - 1);
   console.log(lastCatRemove);
 }
+
+let newCatArray = cats.slice(0, 2);
+function removeLastCat() {
+  return newCatArray;
+}
+
+let newCat2Array = cats.slice(1);
+function removeFirstCat() {
+  return newCat2Array;
+}
+console.log(newCat2Array);
